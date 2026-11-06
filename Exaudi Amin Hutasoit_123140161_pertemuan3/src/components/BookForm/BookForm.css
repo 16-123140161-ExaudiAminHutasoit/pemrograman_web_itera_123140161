@@ -1,0 +1,9 @@
+/* BookForm Styles */
+.book-form-input {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.book-form-input:focus {
+  outline: none;
+}
+
