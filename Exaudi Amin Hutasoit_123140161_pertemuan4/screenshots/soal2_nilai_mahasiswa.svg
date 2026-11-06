@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" width="100%" height="100%">
+  <defs>
+    <style>
+      .window-bg { fill: #1e1e2e; rx: 12px; }
+      .header-bg { fill: #181825; rx: 12px; }
+      .btn-red { fill: #f38ba8; }
+      .btn-yellow { fill: #f9e2af; }
+      .btn-green { fill: #a6e3a1; }
+      .title { fill: #cdd6f4; font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; text-anchor: middle; }
+      .prompt { fill: #89b4fa; font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+      .cmd { fill: #f5e0dc; font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; }
+      .text-dim { fill: #6c7086; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; }
+      .text-main { fill: #cdd6f4; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; }
+      .text-bold { fill: #cdd6f4; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; font-weight: bold; }
+      .text-cyan { fill: #89dceb; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; font-weight: bold; }
+      .text-green { fill: #a6e3a1; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; font-weight: bold; }
+      .text-yellow { fill: #f9e2af; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; }
+    </style>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect x="0" y="0" width="920" height="640" class="window-bg" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.5))"/>
+  <path d="M 0,12 C 0,5.37 5.37,0 12,0 L 908,0 C 914.63,0 920,5.37 920,12 L 920,40 L 0,40 Z" class="header-bg"/>
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="20" r="6.5" class="btn-red"/>
+  <circle cx="44" cy="20" r="6.5" class="btn-yellow"/>
+  <circle cx="64" cy="20" r="6.5" class="btn-green"/>
+
+  <!-- Title -->
+  <text x="460" y="25" class="title">Terminal — PowerShell (python tugas2_nilai_mahasiswa.py)</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(20, 65)">
+    <text x="0" y="0" class="prompt">PS C:\Tugas Praktikum\Exaudi Amin Hutasoit_123140161_pertemuan4&gt; <tspan class="cmd">python tugas2_nilai_mahasiswa.py</tspan></text>
+
+    <!-- Header Banner -->
+    <text x="0" y="25" class="text-cyan">==========================================================================================</text>
+    <text x="0" y="42" class="text-bold">           SISTEM PENGELOLAAN DATA NILAI MAHASISWA PEMROGRAMAN WEB</text>
+    <text x="0" y="59" class="text-bold">                           INSTITUT TEKNOLOGI SUMATERA</text>
+    <text x="0" y="76" class="text-cyan">==========================================================================================</text>
+    <text x="0" y="93" class="text-main">Praktikan : <tspan class="text-green">Exaudi Amin Hutasoit</tspan> (NIM: <tspan class="text-yellow">123140161</tspan>)</text>
+    <text x="0" y="110" class="text-dim">------------------------------------------------------------------------------------------</text>
+
+    <!-- Table Title -->
+    <text x="0" y="132" class="text-yellow">DAFTAR REKAPITULASI HASIL NILAI MAHASISWA:</text>
+    <text x="0" y="150" class="text-dim">+------+--------------------------+-------------+-------+-------+--------+-------------+-------+</text>
+    <text x="0" y="167" class="text-cyan">|  No  | Nama Mahasiswa           |     NIM     |  UTS  |  UAS  | Tugas  | Nilai Akhir | Grade |</text>
+    <text x="0" y="184" class="text-dim">+------+--------------------------+-------------+-------+-------+--------+-------------+-------+</text>
+    <text x="0" y="201" class="text-main">|  1   | <tspan class="text-green">Exaudi Amin Hutasoit</tspan>     |  123140161  |  88.0 |  92.0 |   90.0 |       <tspan class="text-yellow">90.20</tspan> |   <tspan class="text-green">A</tspan>   |</text>
+    <text x="0" y="218" class="text-main">|  2   | Ahmad Fadhilah           |  121140001  |  82.0 |  78.0 |   85.0 |       81.30 |   A   |</text>
+    <text x="0" y="235" class="text-main">|  3   | Budi Santoso             |  122140045  |  68.0 |  72.0 |   75.0 |       71.70 |   B   |</text>
+    <text x="0" y="252" class="text-main">|  4   | Siti Nurhaliza           |  123140023  |  95.0 |  96.0 |   92.0 |       <tspan class="text-yellow">94.50</tspan> |   <tspan class="text-green">A</tspan>   |</text>
+    <text x="0" y="269" class="text-main">|  5   | Rian Pratama             |  122140102  |  55.0 |  62.0 |   58.0 |       58.70 |   D   |</text>
+    <text x="0" y="286" class="text-main">|  6   | Dewi Lestari             |  123140078  |  45.0 |  48.0 |   40.0 |       <tspan class="text-yellow">44.70</tspan> |   <tspan class="btn-red">E</tspan>   |</text>
+    <text x="0" y="303" class="text-dim">+------+--------------------------+-------------+-------+-------+--------+-------------+-------+</text>
+
+    <!-- Statistics Box -->
+    <text x="0" y="335" class="text-cyan">==========================================================================================</text>
+    <text x="0" y="352" class="text-bold">                            RINGKASAN STATISTIK KELAS</text>
+    <text x="0" y="369" class="text-cyan">==========================================================================================</text>
+    <text x="0" y="386" class="text-main">Jumlah Mahasiswa Terdaftar : 6 orang</text>
+    <text x="0" y="403" class="text-main">Rata-rata Nilai Akhir Kelas: <tspan class="text-yellow">73.52</tspan></text>
+    <text x="0" y="420" class="text-dim">------------------------------------------------------------------------------------------</text>
+    <text x="0" y="437" class="text-main">Mahasiswa Nilai <tspan class="text-green">TERTINGGI</tspan>  : Siti Nurhaliza (NIM: 123140023)</text>
+    <text x="0" y="454" class="text-main">   -&gt; Nilai Akhir          : <tspan class="text-yellow">94.50</tspan> (Grade <tspan class="text-green">A</tspan>)</text>
+    <text x="0" y="471" class="text-dim">------------------------------------------------------------------------------------------</text>
+    <text x="0" y="488" class="text-main">Mahasiswa Nilai <tspan class="btn-red">TERENDAH</tspan>   : Dewi Lestari (NIM: 123140078)</text>
+    <text x="0" y="505" class="text-main">   -&gt; Nilai Akhir          : <tspan class="text-yellow">44.70</tspan> (Grade <tspan class="btn-red">E</tspan>)</text>
+    <text x="0" y="522" class="text-cyan">==========================================================================================</text>
+
+    <text x="0" y="550" class="prompt">PS C:\Tugas Praktikum\Exaudi Amin Hutasoit_123140161_pertemuan4&gt; <tspan class="text-dim">_</tspan></text>
+  </g>
+</svg>
+
