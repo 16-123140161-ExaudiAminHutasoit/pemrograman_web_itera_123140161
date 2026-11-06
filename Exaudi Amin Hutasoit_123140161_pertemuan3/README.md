@@ -1,11 +1,10 @@
 # Aplikasi Manajemen Buku Pribadi
 
-| Data                | Keterangan                                       |
-| ------------------- | ------------------------------------------------ |
-| **Nama Lengkap**    | Exaudi Amin Hutasoit                             |
-| **NIM**             | 123140161                                        |
-| **Kelas Praktikum** | Pemrograman Web RB                               |
-| **Pertemuan**       | Pertemuan 3 (React.js, Hooks, Context & Router)  |
+
+ Nama Lengkap    : Exaudi Amin Hutasoit                             
+ NIM             : 123140161                                        
+ Kelas Praktikum : Pemrograman Web RB                               
+ Pertemuan       : Pertemuan 3 (React.js, Hooks, Context & Router)  
 
 ---
 
@@ -28,15 +27,7 @@ Aplikasi ini dirancang dengan antarmuka yang bersih, modern, dan konsisten denga
 7. **Penyimpanan Persisten (LocalStorage)**: Seluruh buku tersimpan otomatis di browser lokal pengguna sehingga data tidak hilang saat halaman di-refresh.
 8. **Navigasi Multi-Halaman**: Perpindahan halaman mulus tanpa reload menggunakan **React Router DOM v6** antara halaman Koleksi Buku dan halaman Statistik.
 
----
-
-## Panduan Instalasi & Cara Menjalankan
-
-### Prasyarat
-- **Node.js** (versi 18+ direkomendasikan)
-- **npm** (versi 9+)
-
-### Langkah Menjalankan:
+### Langkah Menjalankan
 
 1. **Buka Terminal / Command Prompt** dan pastikan berada di folder project ini:
    ```bash
@@ -53,19 +44,6 @@ Aplikasi ini dirancang dengan antarmuka yang bersih, modern, dan konsisten denga
    npm run dev
    ```
    Aplikasi akan berjalan secara lokal di alamat: `http://localhost:5173` (buka tautan tersebut di peramban web seperti Google Chrome atau Microsoft Edge).
-
-4. **Menjalankan Unit Test**:
-   ```bash
-   npm test
-   ```
-   Perintah ini akan mengeksekusi pengujian otomatis Vitest & React Testing Library.
-
-5. **Build untuk Produksi**:
-   ```bash
-   npm run build
-   ```
-
----
 
 ## Penerapan Konsep & Fitur React
 
@@ -151,53 +129,4 @@ Berikut adalah panduan tangkapan layar antarmuka aplikasi untuk laporan praktiku
 ![Hasil Eksekusi Unit Testing di Terminal](Gambar4.png)
 > **Gambar 4:** Hasil eksekusi `npm test` di terminal yang membuktikan seluruh 8 skenario test unit berhasil dijalankan (*100% Passed*).
 
----
-
-## Struktur Folder Proyek
-
-```
-Exaudi Amin Hutasoit_123140161_pertemuan3/
-├── index.html                     # Entry point HTML aplikasi
-├── package.json                   # Konfigurasi dependensi dan scripts
-├── vite.config.js                 # Konfigurasi Vite & Vitest
-├── README.md                      # Dokumentasi lengkap proyek
-├── Gambar1.png                    # Screenshot halaman utama koleksi buku
-├── Gambar2.png                    # Screenshot validasi form & edit buku
-├── Gambar3.png                    # Screenshot halaman statistik & metrik
-├── Gambar4.png                    # Screenshot laporan unit testing di terminal
-└── src/
-    ├── main.jsx                   # Entry point React (ReactDOM & BrowserRouter)
-    ├── App.jsx                    # Komponen utama dengan Routing & Layout
-    ├── index.css                  # Style Tailwind CSS & animasi kustom
-    ├── context/
-    │   └── BookContext.jsx        # Context API global & provider data buku
-    ├── hooks/
-    │   ├── useLocalStorage.js     # Custom hook sinkronisasi localStorage
-    │   └── useBookStats.js        # Custom hook kalkulasi analitik koleksi
-    ├── components/
-    │   ├── Navbar/
-    │   │   ├── Navbar.jsx         # Header & navigasi multi-halaman
-    │   │   └── Navbar.css
-    │   ├── Footer/
-    │   │   └── Footer.jsx         # Footer identitas mahasiswa
-    │   ├── BookForm/
-    │   │   ├── BookForm.jsx       # Form input & edit dengan validasi visual
-    │   │   └── BookForm.css
-    │   ├── BookFilter/
-    │   │   ├── BookFilter.jsx     # Kolom pencarian & filter kategori status
-    │   │   └── BookFilter.css
-    │   └── BookList/
-    │       ├── BookList.jsx       # Daftar kartu buku & aksi edit/hapus
-    │       └── BookList.css
-    ├── pages/
-    │   ├── Home/
-    │   │   ├── Home.jsx           # Halaman utama katalog buku
-    │   │   └── Home.css
-    │   └── Stats/
-    │       ├── Stats.jsx          # Halaman statistik & metrik visual
-    │       └── Stats.css
-    └── test/
-        ├── setup.js               # Konfigurasi Vitest & Testing Library
-        └── BookApp.test.jsx       # 8 skenario unit test menyeluruh
-```
 
