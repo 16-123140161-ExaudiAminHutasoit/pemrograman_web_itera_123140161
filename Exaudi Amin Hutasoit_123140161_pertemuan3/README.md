@@ -115,18 +115,18 @@ Berikut adalah panduan tangkapan layar antarmuka aplikasi untuk laporan praktiku
 
 ### 1. Halaman Utama — Koleksi Buku & Form Input
 ![Halaman Utama Koleksi Buku](Gambar1.png)
-> **Gambar 1:** Menampilkan tata letak 2 kolom bergaya tugas sebelumnya: sisi kiri adalah Form Tambah Buku dengan validasi input, dan sisi kanan adalah filter status, kolom pencarian, serta daftar kartu buku lengkap dengan badge status (`Dimiliki`, `Sedang Dibaca`, `Ingin Dibeli`).
+ **Gambar 1:** Menampilkan tata letak 2 kolom bergaya tugas sebelumnya: sisi kiri adalah Form Tambah Buku dengan validasi input, dan sisi kanan adalah filter status, kolom pencarian, serta daftar kartu buku lengkap dengan badge status (`Dimiliki`, `Sedang Dibaca`, `Ingin Dibeli`).
 
 ### 2. Validasi Form & Fitur Edit Buku
 ![Validasi Form dan Edit Buku](Gambar2.png)
-> **Gambar 2:** Menampilkan feedback visual error saat form disubmit kosong (garis merah dan pesan error) serta mode edit saat salah satu buku dipilih untuk diperbarui.
+ **Gambar 2:** Menampilkan feedback visual error saat form disubmit kosong (garis merah dan pesan error) serta mode edit saat salah satu buku dipilih untuk diperbarui.
 
 ### 3. Halaman Statistik & Analisis Koleksi
 ![Halaman Statistik Buku](Gambar3.png)
-> **Gambar 3:** Menampilkan halaman `/stats` dengan 4 kartu metrik (Total Buku, Dimiliki, Sedang Dibaca, Ingin Dibeli), visual progress bar persentase kepemilikan, dan daftar penulis terbanyak.
+ **Gambar 3:** Menampilkan halaman `/stats` dengan 4 kartu metrik (Total Buku, Dimiliki, Sedang Dibaca, Ingin Dibeli), visual progress bar persentase kepemilikan, dan daftar penulis terbanyak.
 
 ### 4. Hasil Eksekusi Unit Test di Terminal
 ![Hasil Eksekusi Unit Testing di Terminal](Gambar4.png)
-> **Gambar 4:** Hasil eksekusi `npm test` di terminal yang membuktikan seluruh 8 skenario test unit berhasil dijalankan (*100% Passed*).
+ **Gambar 4:** Hasil eksekusi `npm test` di terminal yang membuktikan seluruh 8 skenario test unit berhasil dijalankan (*100% Passed*).
 
 
